@@ -39,6 +39,12 @@ modules:
       - sane-backends-drivers-cameras
       - sane-backends-drivers-scanners
       - sane-backends-libs
+      - epiphany-runtime
+      - evince-thumbnailer
+      - evince-previewer
+      - evince-djvu
+      - evince-libs
+      - satyr
       
     - type: fonts
       fonts:
