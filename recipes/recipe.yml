@@ -46,21 +46,21 @@ modules:
       - evince-libs
       - satyr
       
-    - type: fonts
-      fonts:
-        nerd-fonts:
-          - FiraCode
-          - JetBrainsMono
-          - NerdFontsSymbolsOnly
-          - Ubuntu
-        google-fonts:
-          - Inter
-          - Raleway
-          - Roboto
-          - Montserrat
-          - Open Sans
-    - type: script
-      scripts:
-        - disableservices.sh
+  - type: fonts
+    fonts:
+      nerd-fonts:
+        - FiraCode
+        - JetBrainsMono
+        - NerdFontsSymbolsOnly
+        - Ubuntu
+      google-fonts:
+        - Inter
+        - Raleway
+        - Roboto
+        - Montserrat
+        - Open Sans
+  - type: script
+    scripts:
+      - disableservices.sh
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
