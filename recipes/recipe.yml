@@ -43,6 +43,25 @@ modules:
       - evince-previewer
       - evince-djvu
       - evince-libs
+      - ntfs-3g
+      - ntfs-3g-libs
+      - ntfs-3g-system-compression
+      - ntfsprogs
+      - ModemManager
+      - mozilla-filesystem
+      - gnome-browser-connector
+      - NetworkManager-wwan
+      - NetworkManager-vpnc-gnome
+      - NetworkManager-vpnc
+      - NetworkManager-ssh
+      - NetworkManager-ssh-gnome
+      - NetworkManager-pptp-gnome
+      - NetworkManager-pptp
+      - NetworkManager-ppp
+      - NetworkManager-openconnect
+      - NetworkManager-openconnect-gnome
+      - NetworkManager-bluetooth
+      - NetworkManager-adsl
       
   - type: fonts
     fonts:
