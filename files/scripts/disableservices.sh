@@ -5,21 +5,21 @@
 # builds actually ran successfully without any errors!
 set -oue pipefail
 
-systemctl disable --now switcheroo-control.service  
-systemctl mask --now switcheroo-control.service  
-systemctl disable --now mcelog  
-systemctl mask --now mcelog  
-systemctl disable --now uresourced  
-systemctl mask --now uresourced  
-systemctl disable --now low-memory-monitor  
-systemctl mask --now low-memory-monitor  
-systemctl disable --now systemd-rfkill  
-systemctl disable --now systemd-rfkill.socket  
-systemctl mask --now systemd-rfkill  
-systemctl disable --now mdmonitor  
-systemctl mask --now mdmonitor  
-systemctl disable --now lvm2-lvmpolld  
-systemctl disable --now lvm2-lvmpolld.socket  
-systemctl mask --now lvm2-lvmpolld.socket  
-systemctl disable --now flatpak-system-helper  
-systemctl mask --now flatpak-system-helper  
+systemctl disable switcheroo-control.service  
+systemctl mask switcheroo-control.service  
+systemctl disable mcelog  
+systemctl mask mcelog  
+systemctl disable uresourced  
+systemctl mask uresourced  
+systemctl disable low-memory-monitor  
+systemctl mask low-memory-monitor  
+systemctl disable systemd-rfkill  
+systemctl disable systemd-rfkill.socket  
+systemctl mask systemd-rfkill  
+systemctl disable mdmonitor  
+systemctl mask mdmonitor  
+systemctl disable lvm2-lvmpolld  
+systemctl disable lvm2-lvmpolld.socket  
+systemctl mask lvm2-lvmpolld.socket  
+systemctl disable flatpak-system-helper  
+systemctl mask flatpak-system-helper  
