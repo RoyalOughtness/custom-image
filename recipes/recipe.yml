@@ -84,7 +84,8 @@ modules:
       - gamemode 
       - system-config-printer-udev
       - system-config-printer-libs
-      - sssd-kcm sssd-krb5-common
+      - sssd-kcm 
+      - sssd-krb5-common
       - sssd-nfs-idmap 
       - sssd-client
       - sshpass
@@ -92,6 +93,29 @@ modules:
       - qemu-user-static-aarch64 
       - sssd-common
       - gnome-epub-thumbnailer
+      - malcontent-control
+      - malcontent-ui-libs
+      - lvm2
+      - lvm2-libs
+      - hyperv-daemons
+      - hyperv-daemons-license
+      - hypervfcopyd
+      - hypervkvpd
+      - hypervvssd
+      - hfsplus-tools
+      - hplip-common
+      - httpd-filesystem
+      - rygel
+      - gupnp-av
+      - gupnp-dlna
+      - gvfs-afc
+      - gvfs-afp
+      - gvfs-archive
+      - gvfs-fuse
+      - gvfs-gphoto2
+      - gvfs-mtp
+      - gvfs-smb
+
 
 
       
