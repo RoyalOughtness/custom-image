@@ -17,7 +17,6 @@ modules:
       - papirus-icon-theme
       - overpass-fonts
     remove:
-      - gnome-software
       - bluez-cups
       - braille-printer-app
       - cups
