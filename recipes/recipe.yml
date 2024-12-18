@@ -62,6 +62,21 @@ modules:
       - NetworkManager-openconnect-gnome
       - NetworkManager-bluetooth
       - NetworkManager-adsl
+      - antiword
+      - apr
+      - apr-util
+      - apr-util-openssl
+      - apr-util-lmdb
+      - avahi-tools
+      - avahi-gobject
+      - bluez-obexd
+      - bluez
+      - gnome-bluetooth
+      - spice-webdavd
+      - httpd-tools
+      - liblouisutdml-utils
+      - spice-vdagent
+      - ibus-typing-booster
       
   - type: fonts
     fonts:
