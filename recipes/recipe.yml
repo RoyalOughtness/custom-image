@@ -77,6 +77,12 @@ modules:
       - liblouisutdml-utils
       - spice-vdagent
       - ibus-typing-booster
+      - fprintd
+      - fprintd-pam
+      - fuse-libs
+      - fuse-overlayfs
+      - gamemode 
+
       
   - type: fonts
     fonts:
