@@ -82,6 +82,17 @@ modules:
       - fuse-libs
       - fuse-overlayfs
       - gamemode 
+      - system-config-printer-udev
+      - system-config-printer-libs
+      - sssd-kcm sssd-krb5-common
+      - sssd-nfs-idmap 
+      - sssd-client
+      - sshpass
+      - qemu-guest-agent 
+      - qemu-user-static-aarch64 
+      - sssd-common
+      - gnome-epub-thumbnailer
+
 
       
   - type: fonts

@@ -23,3 +23,14 @@ systemctl disable lvm2-lvmpolld.socket
 systemctl mask lvm2-lvmpolld.socket  
 systemctl disable flatpak-system-helper  
 systemctl mask flatpak-system-helper  
+
+
+rm /usr/share/thumbnailers/avif.thumbnailer
+rm /usr/share/thumbnailers/gdk-pixbuf-thumbnailer.thumbnailer
+rm /usr/share/thumbnailers/gnome-epub-thumbnailer.thumbnailer
+rm /usr/share/thumbnailers/gnome-mobi-thumbnailer.thumbnailer
+rm /usr/share/thumbnailers/gsf-office.thumbnailer
+rm /usr/share/thumbnailers/heif.thumbnailer
+rm /usr/share/thumbnailers/jxl.thumbnailer
+rm /usr/share/thumbnailers/librsvg.thumbnailer
+rm /usr/share/thumbnailers/webp-pixbuf.thumbnailer
