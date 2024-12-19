@@ -26,7 +26,6 @@ systemctl mask flatpak-system-helper
 
 
 rm /usr/share/thumbnailers/avif.thumbnailer
-rm /usr/share/thumbnailers/gdk-pixbuf-thumbnailer.thumbnailer
 rm /usr/share/thumbnailers/gsf-office.thumbnailer
 rm /usr/share/thumbnailers/heif.thumbnailer
 rm /usr/share/thumbnailers/jxl.thumbnailer
