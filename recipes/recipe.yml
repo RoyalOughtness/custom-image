@@ -16,7 +16,6 @@ modules:
     install:
       - papirus-icon-theme
       - overpass-fonts
-      - ddcutil
     remove:
       - bluez-cups
       - braille-printer-app
