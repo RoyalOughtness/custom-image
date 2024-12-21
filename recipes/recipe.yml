@@ -16,6 +16,7 @@ modules:
     install:
       - papirus-icon-theme
       - overpass-fonts
+      - ddcutil
     remove:
       - bluez-cups
       - braille-printer-app
@@ -116,16 +117,9 @@ modules:
       - gvfs-mtp
       - gvfs-smb
 
-
-
       
   - type: fonts
     fonts:
-      nerd-fonts:
-        - FiraCode
-        - JetBrainsMono
-        - NerdFontsSymbolsOnly
-        - Ubuntu
       google-fonts:
         - Inter
         - Raleway
