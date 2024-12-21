@@ -115,6 +115,15 @@ modules:
       - gvfs-gphoto2
       - gvfs-mtp
       - gvfs-smb
+      - yelp-libs
+      - yelp-xsl 
+      - ibus-anthy 
+      - ibus-anthy-python
+      - ibus-chewing
+      - ibus-gtk4 
+      - ibus-hangul 
+      - ibus-libpinyin
+      - ibus-m17n
 
       
   - type: fonts
