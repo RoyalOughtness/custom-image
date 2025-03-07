@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+
+set -oue pipefail
+
+systemctl disable flatpak-system-update.service
+systemctl mask flatpak-system-update.service
+
+systemctl disable flatpak-system-helper.service
+systemctl mask flatpak-system-helper.service
+
+systemctl disable --global org.gnome.SettingsDaemon.Wacom.service
+systemctl mask --global org.gnome.SettingsDaemon.Wacom.service
+
+systemctl disable --global evolution-addressbook-factory.service
+systemctl mask --global evolution-addressbook-factory.service
+
+
+systemctl disable --global evolution-calendar-factory.service
+systemctl mask --global evolution-calendar-factory.service
+
