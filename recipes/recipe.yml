@@ -70,6 +70,8 @@ modules:
       - ibus-chewing
       - ibus-gtk4
       - at-spi2-core
+      - epiphany-runtime
+      - gnome-software
 
   - type: script
     scripts:
