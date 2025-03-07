@@ -30,7 +30,7 @@ modules:
       - system-config-printer-libs
       - NetworkManager-bluetooth
       - gnome-bluetooth
-      - gnome-blutooth-libs
+      - gnome-bluetooth-libs
       - NetworkManager-ppp
       - NetworkManager-adsl
       - NetworkManager-pptp-gnome
