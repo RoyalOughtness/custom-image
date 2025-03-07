@@ -27,6 +27,16 @@ jobs:
         recipe:
           - recipe.yml
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Gather image data from recipe
+        run: |
+          echo "IMAGE_NAME=$(grep '^name:' ./recipes/${{ matrix.recipe }} | sed 's/^name: //')" >> $GITHUB_ENV
+          echo "IMAGE_MAJOR_VERSION=$(grep '^image-version:' ./recipes/${{ matrix.recipe }} | sed 's/^image-version: //')" >> $GITHUB_ENV
+          BASE_IMAGE=$(grep '^base-image:' ./recipes/${{ matrix.recipe }} | sed 's/^base-image: //')
+          echo "BASE_IMAGE_NAME=$(echo $BASE_IMAGE | sed 's/.*\/.*\///')" >> $GITHUB_ENV
+          
       - name: Verify base image
         uses: EyeCantCU/cosign-action/verify@58722a084c82190b57863002d494c91eabbe9e79 # v0.3.0
         with:
