@@ -3,7 +3,7 @@ name: custom-image
 description: This is my personal OS image.
 
 base-image: ghcr.io/secureblue/silverblue-main-hardened
-image-version: latest
+image-version: 41
 
 modules:
   - type: rpm-ostree
