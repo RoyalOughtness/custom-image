@@ -24,7 +24,9 @@ modules:
       - gutenprint
       - braille-printer-app
       - system-config-printer-udev
-      - ghoststript-tools-printing
+      - ghostscript-tools-printing
+      - ghostscript-tools-fonts
+      - ghostscript
       - system-config-printer-libs
       - NetworkManager-bluetooth
       - gnome-bluetooth
