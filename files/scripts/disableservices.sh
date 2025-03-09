@@ -23,7 +23,7 @@ systemctl mask --global evolution-addressbook-factory.service
 
 
 systemctl disable --global evolution-calendar-factory.service
-systemctl mask --global evolution-calendar-factory.service
+#systemctl mask --global evolution-calendar-factory.service
 
 systemctl disable --global /usr/lib/systemd/user/org.freedesktop.IBus.session.GNOME.service
 systemctl mask --global /usr/lib/systemd/user/org.freedesktop.IBus.session.GNOME.service
