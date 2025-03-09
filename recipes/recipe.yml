@@ -74,3 +74,4 @@ modules:
   - type: script
     scripts:
       - disableservices.sh
+      - removethumbnailers.sh

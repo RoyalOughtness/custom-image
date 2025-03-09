@@ -6,6 +6,9 @@ set -oue pipefail
 systemctl disable mdmonitor.service
 systemctl mask mdmonitor.service
 
+systemctl disable lvm2-monitor.service
+systemctl mask lvm2-monitor.service
+
 systemctl disable switcheroo-control.service
 systemctl mask switcheroo-control.service
 
