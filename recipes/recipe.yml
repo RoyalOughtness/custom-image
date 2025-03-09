@@ -19,6 +19,13 @@ modules:
       - hplip
       - hplip-common
       - hplip-libs
+      - libsane-hpaio
+      - libsane-airscan
+      - sane-backends-libs
+      - sane-airscan
+      - sane-backends
+      - sane-backends-drivers-cameras
+      - sane-backends-drivers-scanners
       - cups
       - libcupsfilters
       - cups-filters
@@ -46,16 +53,9 @@ modules:
       - NetworkManager-vpnc
       - NetworkManager-pptp
       - NetworkManager-openconnect
-      - libavif
       - evince-thumbnailer
       - gnome-epub-thumbnailer
-      - libheif
-      - librsvg2
-      - rsvg-pixbuf-loader
-      - webp-pixbuf-loader
       - mcelog
-      - mdadm
-      - libblockdev-mdraid
       - low-memory-monitor
       - uresourced
       - virtualbox-guest-additions
@@ -69,7 +69,6 @@ modules:
       - ibus-typing-booster
       - ibus-chewing
       - ibus-gtk4
-      - at-spi2-core
       - epiphany-runtime
       - gnome-software
 
