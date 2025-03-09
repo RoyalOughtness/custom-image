@@ -3,6 +3,10 @@
 
 set -oue pipefail
 
+
+systemctl disable switcheroo-control.service
+systemctl mask switcheroo-control.service
+
 systemctl disable flatpak-system-update.service
 systemctl mask flatpak-system-update.service
 
