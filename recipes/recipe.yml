@@ -72,9 +72,6 @@ modules:
       - gnome-software
       - fprintd
       - fprintd-pam
-      - geoclue2
-      - geoclue2-libs
-      - geocode-glib
       - geolite2-city
       - geolite2-country
       - httpd-filesystem
@@ -85,10 +82,9 @@ modules:
       - hypervkvpd
       - hypervvssd
       - ModemManager
-      - ModemManager-glib
-      - mobile-broadband-provider-info
       - nilfs-utils
       - cifs-utils
+      - cifs-utils-info
       - nfs-utils
       - ntfs-3g
       - ntfs-3g-libs
@@ -101,11 +97,11 @@ modules:
       - setroubleshoot-server
       - spice-vdagent
       - spice-webdavd
-      - spirv-tools-libs
       - sssd-client
       - sssd-common
       - sssd-kcm
       - sssd-nfs-idmap
+      - sssd-krb5-common
       - sshpass
       - yelp-libs
       - yelp-xsl
