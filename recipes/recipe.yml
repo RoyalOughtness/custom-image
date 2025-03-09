@@ -70,6 +70,45 @@ modules:
       - ibus-gtk4
       - epiphany-runtime
       - gnome-software
+      - fprintd
+      - fprintd-pam
+      - geoclue2
+      - geoclue2-libs
+      - geocode-glib
+      - geolite2-city
+      - geolite2-country
+      - httpd-filesystem
+      - httpd-tools
+      - hyperv-daemons
+      - hyperv-daemons-license
+      - hypervfcopyd
+      - hypervkvpd
+      - hypervvssd
+      - ModemManager
+      - ModemManager-glib
+      - mobile-broadband-provider-info
+      - nilfs-utils
+      - cifs-utils
+      - nfs-utils
+      - ntfs-3g
+      - ntfs-3g-libs
+      - ntfs-3g-system-compression
+      - ntfsprogs
+      - qemu-guest-agent
+      - qemu-user-static-aarch64
+      - setroubleshoot
+      - setroubleshoot-plugins
+      - setroubleshoot-server
+      - spice-vdagent
+      - spice-webdavd
+      - spirv-tools-libs
+      - sssd-client
+      - sssd-common
+      - sssd-kcm
+      - sssd-nfs-idmap
+      - sshpass
+      - yelp-libs
+      - yelp-xsl
 
   - type: script
     scripts:
