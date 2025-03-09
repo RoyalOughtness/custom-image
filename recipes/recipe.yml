@@ -12,7 +12,6 @@ modules:
       - gvfs-gphoto2 
       - gvfs-mtp
       - bluez
-      - bluez-libs
       - bluez-obexd
       - bluez-cups
       - libppd
