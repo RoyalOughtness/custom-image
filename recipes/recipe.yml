@@ -101,6 +101,7 @@ modules:
       - sshpass
       - yelp-libs
       - yelp-xsl
+      - toolbox
 
   - type: script
     scripts:
