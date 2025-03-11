@@ -9,6 +9,12 @@ systemctl mask mdmonitor.service
 systemctl disable lvm2-monitor.service
 systemctl mask lvm2-monitor.service
 
+systemctl disable lvm2-lvmpolld.service
+systemctl mask lvm2-lvmpolld.service
+
+systemctl disable rc-local.service
+systemctl mask rc-local.service
+
 systemctl disable switcheroo-control.service
 systemctl mask switcheroo-control.service
 
