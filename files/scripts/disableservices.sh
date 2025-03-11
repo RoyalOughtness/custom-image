@@ -30,3 +30,19 @@ systemctl disable --global evolution-calendar-factory.service
 
 systemctl disable --global /usr/lib/systemd/user/org.freedesktop.IBus.session.GNOME.service
 #systemctl mask --global /usr/lib/systemd/user/org.freedesktop.IBus.session.GNOME.service
+
+systemctl disable systemd-rfkill.service  
+systemctl mask systemd-rfkill.service  
+
+systemctl disable systemd-rfkill.socket
+systemctl mask systemd-rfkill.socket
+
+
+systemctl disable dm-event.service  
+systemctl mask dm-event.service  
+
+systemctl disable dm-event.socket
+systemctl mask dm-event.socket
+
+systemctl disable systemd-bsod.service  
+systemctl mask systemd-bsod.service  
