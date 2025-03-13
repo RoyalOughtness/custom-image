@@ -109,3 +109,5 @@ modules:
     scripts:
       - disableservices.sh
       - removethumbnailers.sh
+
+  - type: signing
