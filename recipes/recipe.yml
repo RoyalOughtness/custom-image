@@ -8,11 +8,8 @@ image-version: 41
 modules:
   - type: rpm-ostree
     install:
-      - uutils-coreutils
       - papirus-icon-theme
     remove:
-      - coreutils
-      - coreutils-common
       - gvfs-afc
       - gvfs-gphoto2 
       - gvfs-mtp
